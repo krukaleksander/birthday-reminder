@@ -10,7 +10,7 @@ function App() {
     <section className="container">
       <h3>{people.length} urodzin dzisiaj</h3>
       <List people={people} />
-      <button onclick={() => setPeople(['1'])}>Wyczyść</button>
+      <button onClick={() => setPeople([])}>Wyczyść</button>
     </section>
   </main>
 };
